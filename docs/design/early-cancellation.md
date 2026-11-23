@@ -1,8 +1,9 @@
 # Design note: early consumer cancellation with a defined refund
 
 - **Issue:** #135 — *Support early consumer cancellation with a defined refund*
-- **Status:** Implemented on `fix/135-early-consumer-cancellation`; a maintainer
-  must approve this note before the change is merged.
+- **Status:** Implemented and merged in
+  [#151](https://github.com/KeyLease-Security/keylease-core/pull/151). The
+  provider-consent design in this note is the one that shipped.
 - **Scope:** `contracts/registry/src/{lib,types,storage,events,errors}.rs`, tests
   and docs.
 
